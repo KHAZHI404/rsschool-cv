@@ -22,3 +22,28 @@ Among my qualities I will single out stress resistance and perseverance.
 * __Git/GitHub__
 * __Figma__
 * __VS Code__
+
+## Code example:
+```
+function arrayDiff(a, b) { 
+  for (let i = 0; i < a.length; i++) {
+    for (let elemB of b) {      
+      if (a[i] === elemB) {
+        a.splice(i, 1)
+        i--
+      }
+    }
+  }
+  return a
+}
+```
+
+## Education:
+* University: Grozny Technical University
+    + Communication networks and systems   
+* Courses: 
+    + [HTML/CSS](https://ru.code-basics.com) from ru.code
+    + [JavaScript](https://learn.javascript.ru/) from LearnJS
+
+## English level:
+**A2** I have experience talking with a native speaker. I can speak and write on light topics.
